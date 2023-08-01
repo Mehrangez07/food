@@ -20,3 +20,116 @@ a {
     padding: 0 15px;
 }
 
+/* fresh vegetables start */
+.fresh_vegatables .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_fresh{
+    background: url(../images/square.png)no-repeat center /cover;
+    width: 500px;
+    height: 500px; 
+}
+
+.fresh_img {
+    max-width: 585px;
+    width: 100%;  
+}
+
+.right_fresh {
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.fresh_title {
+    color: #151414;
+    font-size: 54px;
+    font-weight: 770;
+}
+
+.fresh_txt {
+    margin-top: 30px;
+    width: 514px;
+    color: #181D19;
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 34px;
+}
+
+.fresh_button {
+    margin-top: 30px;
+    width: 210px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* fresh vegatebles end */
+/* best chefs start */
+
+.best_chefs .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chefs_left {
+    padding: 30px;
+    margin: 30px;
+}
+
+.chefs_title {
+    color: #151414;
+    font-size: 54px;
+    font-weight: 770;
+}
+
+.chefs_txt {
+    margin-top: 30px;
+    width: 514px;
+    color: #181D19;
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 34px;
+}
+
+
+.chefs_list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+.chef_list_link {
+    margin-top: 30px;
+    color: #181D19;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+}
+
+.chef {
+    max-width: 606px;
+    width: 100%;
+    
+}
+
+.chefs_right{
+    background: url(../images/square.png)no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+}
+
+/* best chef end */
